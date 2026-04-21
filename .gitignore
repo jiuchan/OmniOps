@@ -1,0 +1,64 @@
+# ===== Python =====
+backend/venv/
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+
+# ===== 数据库 & 日志 =====
+backend/*.db
+backend/*.log
+frontend/*.log
+
+# ===== Node.js / Next.js =====
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+
+# ===== 历史临时脚本（根目录）=====
+add_labels.py
+add_labels_v2.py
+fix_optgroup.py
+fix_rs_bind.py
+modify_vip_attach.py
+recover_missing.py
+replace_directors.py
+replace_vips_rs.py
+update_vip_batch.py
+
+# ===== 历史临时脚本（frontend/）=====
+frontend/apply_archive_for_group_role.py
+frontend/apply_archived.py
+frontend/replace_i18n.py
+frontend/replace_lvs_term.py
+frontend/rewrite.py
+frontend/update_frontend_group_role_crud.py
+frontend/update_modals.py
+frontend/update_ui.py
+frontend/update_user_ui.py
+frontend/update_wording.py
+frontend/cn_lines.txt
+frontend/remaining.txt
+frontend/remaining2.txt
+frontend/AGENTS.md
+frontend/CLAUDE.md
+
+# ===== 历史临时脚本（backend/）=====
+backend/apply_update_routes.py
+backend/apply_user_update.py
+backend/clean_db.py
+backend/fix_role_name.py
+backend/migrate_rbac_data.py
+backend/refactor_routers.py
+backend/revert_to_3d.py
+backend/revert_to_real_racks.py
+backend/test_topology.py
+backend/test_topology2.py
+backend/backend_run.log
+
+# ===== 旧版项目目录（Django + Vue2）=====
+lvsmng/
+lvsmng-template/
+
+# ===== OS =====
+.DS_Store
+**/.DS_Store

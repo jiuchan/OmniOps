@@ -1,0 +1,1 @@
+from database import SessionLocal; from models import LvsEip; db = SessionLocal(); db.add(LvsEip(ip_address='8.8.8.8', isp='BGP', state='UNASSIGNED')); db.add(LvsEip(ip_address='114.114.114.114', isp='Telecom', state='UNASSIGNED')); db.add(LvsEip(ip_address='1.1.1.1', isp='Cloudflare', state='UNASSIGNED')); db.commit(); db.close()
